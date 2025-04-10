@@ -1,0 +1,35 @@
+.ps3q1 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    
+}
+
+.ps3q2{
+    display: flex;
+    height: 60px;
+    background-color: black;
+}
+
+
+.ps3q2 > p{
+    margin-top: 0px;
+    color:white;
+    margin-right: 200px;
+}
+
+.ps3q2 > #company_name{
+    margin-top: 0px;
+    color:rgb(111, 111, 27);
+}
+
+.ps3q2 > input{
+    height: 20px;
+}
+
+.ps3q2 > button{
+    height: 20px;
+    color:white;
+    background-color: #f08804;
+}
