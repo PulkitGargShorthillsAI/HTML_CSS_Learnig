@@ -35,3 +35,29 @@ li{
     width: 50px;
     background-color: rgb(0, 255, 0);
 }
+
+
+
+#media{
+    background-color: rgb(0, 0, 255);
+    height: 100px;
+    width: 100px;
+}
+
+@media (max-width:300px){
+    #media{
+        background-color: green;
+    }
+}
+
+@media (min-width:300px) and (max-width:400px){
+    #media{
+        background-color: pink;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px){
+    #media{
+        background-color: red;
+    }
+}
